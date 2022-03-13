@@ -312,19 +312,19 @@ section.sobre{
   }
   
   #img-1 {
-    background-image: url('../img/poção.png');
+    background-image: url('img/poção.png');
   }
   
   #img-2 {
-    background-image: url('../img/fantasma.png');
+    background-image: url('img/fantasma.png');
   }
   
   #img-3 {
-    background-image: url('../img/morcego.png');
+    background-image: url('img/morcego.png');
   }
   
   #img-4 {
-    background-image: url('../img/gato.png');
+    background-image: url('img/gato.png');
   }
  
   
