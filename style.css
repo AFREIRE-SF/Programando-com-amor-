@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+    margin-top: 2%;
+}
+
+html,body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  
+}
+
+body{ 
+    background-image: url(img/p1.png);
+}
+
+
+header{
+    height: 200px;
+    padding:20px 0;
+}
+
+.logo{
+    width: 50%;
+    color: #000000;
+}
+
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.menu a:hover{
+    color:#00ffea
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position:absolute;
+    bottom: -250px;
+    right: -300px;
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    /* background-color: #9fd1ff, transparent transparent; */
+
+}
+
+.social-media{
+    position:absolute;
+    right: 300px;
+    top: 150px;
+}
+
+.social-media a{
+    display: block;
+    width: 50px;
+    margin: 4px 20px 0 0 ;
+}
+
+.texto-sobre{
+    margin-top: 30px;
+}
+
+.texto-sobre h1{
+    font-size:20px;
+    color: #000000;
+}
+
+
+
+.center-de{
+        background: rgba( 255, 255, 255, 0.35 );
+        box-shadow: 0 8px 32px 0 rgba(11, 0, 75, 0.37);
+        backdrop-filter: blur( 13.5px );
+        -webkit-backdrop-filter: blur( 13.5px );
+        border-radius: 4px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );   
+        max-width: 40%;
+        height: 200px;
+        padding-left: 50px;
+        padding-right: 30px;
+        margin: 40px;
+
+}
+
+.texto-sobre p{
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
+    font-size:14px;
+    font-weight:bold;
+    max-width: 700px;
+    }
+
+    .texto-sobre button{
+    font-size: 14px;
+    width: 30%;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(68.15deg, #6bb6fc 16.62%,  #073d7a 85.61%);
+    color: #ffffffff;
+    padding: 8px;
+    border-radius: 100px;
+    border: 1px solid #070066; 
+    box-shadow: 2px 2px 1px 1px #111111; 
+   
+  }
+
+       
+    .texto-sobre button:hover{
+      color: #00ffc8;
+    }
+
+    /* fim do css da pag 1 */
+    /*começo do css da pag 2*/
+
+    .h3{
+        margin: 5px 0;
+        color: #0400ff;
+        font-size: 14px;
+        font-weight: bold;
+        max-width:300px;
+    }
+    
+    .conteudo{
+        max-width: 100%;
+        max-height: 60%;
+        margin-bottom: 5px;
+        margin-top: 15px;
+        background: linear-gradient(68.15deg, #0f529e 16.62%, #6bb6fc 85.61%);
+           
+    }
+  
+    .conteudo-principal{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .conteudo-principal-escrito{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    
+    }
+    
+    .conteudo-principal-escrito-titulo{
+        font-family:  sans-serif, arial, helvetica;
+        font-weight: 400;
+        font-size: 25px;
+        color: #000000;
+        margin-top: 30px;
+        margin-left: 40px;
+        margin-bottom: 5px;
+    }
+    
+    .conteudo-principal-escrito-subtitulo{
+        font-family:  sans-serif, arial, helvetica;
+        font-weight: 400;
+        font-size: 15px;
+        color:#ffffff;
+        margin-left: 40px;
+        margin-top: none;
+    }
+    
+    .conteudo-principal-escrito-botao{
+        background: linear-gradient(68.15deg, #6bb6fc 16.62%,  #0f529e 85.61%);
+        width: 150px;
+        height: 50px;
+        border-color: #020083;
+        box-shadow: 4px 5px 4px rgba(0, 142, 224, 0.534);
+        border-radius: 25px;
+        font-family:sans-serif, arial, helvetica;
+        font-weight: 300;
+        font-size: 15px;
+        color:#ffffff;
+        margin-left: 40px;
+    }
+    
+    .conteudo-principal-escrito-botao:hover{
+        color: #1c0080;
+          } 
+    
+    
+    .conteudo-principal-imagem{
+        height: 430px;
+        border-radius: 50%;
+        padding: 10px;
+    
+    }
+    
+    .conteudo-principal-imagem:hover{
+        background:linear-gradient(68.15deg, #694bf0 16.62%, #00aeff 85.61%);  
+    }
+
+    .vamos{ 
+        margin-left: 40px;
+    }
+
+    /*esse aqui é o footer geral mas nem todas as pag estão usando*/
+    footer{
+        margin-top: 255px;
+        background-color:  #00b5e2;
+        font-family:sans-serif;
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding:5px;
+        }
+        
+          /*esse aqui é o footer da pag vamos*/
+    .footer-con{
+        margin-top: 120px;
+        background-color:  #00b5e2;
+        font-family:sans-serif;
+        font-size: 12px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding:5px;
+        }
+
+
+      /* Cabeçalho da pag de grid de vendas, aqui começa o css dela */
+    .header-com {
+    text-align: center;
+    padding: 5px 0 0 0 ;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0;
+    
+    }
+
+    
+  /* Grid de produtos */
+     .container-comprar {
+    background-color: #00858f;
+    display: flex-start;
+    width: 1350px;
+    height: 350px;
+    padding: 10px;
+    margin-top: 0;
+    margin-left: 40px;
+
+  } 
+
+  .container-comprar{
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba(11, 0, 75, 0.37);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );   
+    max-width: 1350px;
+    height: 350px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .products-container {
+    max-width: 0 auto;
+    margin: 0 auto;
+    max-height: 0 auto;
+    align-items: center;
+  }
+  
+  .card {
+    width: 21%;
+    margin: 1% 1%;
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid #a7ebe7;
+    align-items: center;
+  }
+  
+  .product-image {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #2600fc;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 65px;
+    background-position: center;
+    background-size: cover;
+  
+  }
+  
+  #img-1 {
+    background-image: url('../img/poção.png');
+  }
+  
+  #img-2 {
+    background-image: url('../img/fantasma.png');
+  }
+  
+  #img-3 {
+    background-image: url('../img/morcego.png');
+  }
+  
+  #img-4 {
+    background-image: url('../img/gato.png');
+  }
+ 
+  
+  h3 {
+    margin-top: 8px;
+    margin-bottom: 3px;
+    margin-left: 50px;
+    color: #2600fc;
+    font-size: 18px;
+    align-items: center;
+  }
+  
+  .card p {
+    text-align: center;
+    margin: 10px;
+    font-size: 13px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .botao-b{
+    font-size: 13px;
+    display: block;
+    width: 70%;
+    margin-left: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: linear-gradient(68.15deg, #6bb6fc 16.62%,  #073d7a 85.61%);
+    color: #ffffffff;
+    padding: 8px;
+    border-radius: 100px;
+    border: 1px solid #070066; 
+    box-shadow: 2px 2px 1px 1px #111111; 
+   
+  }
+
+    
+  .botao-b:hover{
+
+    color: #00ffaa;
+  }
+  
+  .footer-comprar{
+    margin-top: 20px;
+    background-color:  #00b5e2;
+    font-family:sans-serif;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding:5px;
+    }
+/* aqui acaba o css da pag da taberna*/
+
+/*aqui é o css da pag de cadastro*/
+
+.campo-texto #titulo, #subtitulo{
+    font-family: sans-serif;
+    color: rgb(11, 11, 66);
+    margin-left: 500px;
+    margin-top: 0;
+    margin-bottom:2px;
+    margin-right:0;
+}
+
+#fieldset{
+    
+    border: 0;
+
+}
+
+.grupo{
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba(11, 0, 75, 0.37);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );   
+    max-width: 350px;
+    height: 350px;
+    Margin-left: 500px;
+    padding-right: 30px;
+    
+}
+
+input, select, textarea, button {
+    border-radius: 5px solid color #000fff;
+}
+
+.campo-dados{
+    margin-top: 10%;;
+    margin-left: 30px;
+    margin-bottom:1em;
+    align-items: center;
+
+}
+.campo-dados label {
+    font-family:sans-serif;
+    margin-bottom:0.2em;
+    color: black;
+    display: block;
+}
+
+fieldset.grupo .campo-dados{
+    float: left;
+    margin-right: 1em;
+} 
+
+.campo-dados input[type="text"], .campo-dados input[type="email"], .campo-dados select, .campo-dados textarea{
+padding:0.2em;
+border:1px solid #000fff;
+box-shadow: 3px 3px 2px 2px #1b1b1b;
+display: block;
+}
+
+
+
+.botao-ca{
+    font-size: 12px;
+    width: 10%;
+    margin-top: 5px;
+    margin-left: 600px;
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(68.15deg, #6bb6fc 16.62%,  #073d7a 85.61%);
+    color: #ffffffff;
+    padding: 8px;
+    border-radius: 100px;
+    border: 1px solid #070066; 
+    box-shadow: 2px 2px 1px 1px #111111; 
+
+}
+
+.botao-ca:hover{
+    color: rgb(0, 238, 255);
+}
+
+.footer-ca{
+    margin-top: 30px;
+    background-color:  #00b5e2;
+    font-family:sans-serif;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding:5px;
+    }
+    /* aqui acaba o css da pag de cadastro*/
+    /* aqui começa o css da pag de revelar*/
